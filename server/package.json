@@ -1,0 +1,55 @@
+{
+  "name": "travely",
+  "version": "0.5.0",
+  "description": "this is my first project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm start\" \"cd .. && cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassimx/travely_project.git"
+  },
+  "keywords": [
+    "booking",
+    "travel",
+    "hotels"
+  ],
+  "author": "Nassim Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nassimx/travely_project/issues"
+  },
+  "homepage": "https://github.com/nassimx/travely_project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "query-string": "^7.0.1",
+    "stripe": "^8.174.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.12"
+  }
+}

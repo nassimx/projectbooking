@@ -1,0 +1,53 @@
+html {
+  font-family: Montserrat, 'Helvetica Neue', Helvetica;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+body .home {
+  background-image: url('../src/components/images/1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0px -130px;
+}
+div .search {
+  padding: 15rem 0rem 20rem 0rem;
+  text-align: center;
+}
+.backdrop {
+  background-size: contain;
+  background-position: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 75vw;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  border: 4px rgb(255, 255, 255) solid;
+  mix-blend-mode: multiply;
+  font: bolder 6vw monospace;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  transition: text-indent 0.5s;
+}
+
+.text:hover {
+  text-indent: 5px;
+  transition: text-indent 0.5s;
+}
+
+.text:hover::before {
+  display: inline-block;
+  content: '✈︎';
+}
+
+.text.tunisia {
+  font-family: 'Jacques Francois', cursive;
+  background-color: rgba(61, 57, 57, 0.746);
+  outline: 4px rgb(41, 39, 39) solid;
+}
