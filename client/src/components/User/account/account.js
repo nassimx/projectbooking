@@ -1,3 +1,4 @@
+import React from 'react'
 import { Box, Container, Grid } from '@material-ui/core';
 import AccountProfile from './AccountProfile';
 import AccountProfileDetails from './AccountProfileDetails';
